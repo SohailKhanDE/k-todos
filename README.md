@@ -1,10 +1,22 @@
-# Getting Started with Create React App
+# Insperational ToDo's App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This application will interact with different APIs to display the current weather, a background image, and an inspirational quote. It will also provide users with a space to write down their goals for the day
 
-## Available Scripts
+## Ueed Stack Esseltials
+* React with all its cool packages like
+* Redux + Redux Toolkit
+* Tailwind CSS
+* Material-Tailwind from Creative-Tim
+* Axios API
+* Jest Testing
+* some other like uuid etc.
 
-In the project directory, you can run:
+### What you Need in .env
+API Key for OpenWeathermap (https://openweathermap.org/)
+API Key for Unsplash (https://unsplash.com/developers)
+API Key for Wisdom Quotes (https://quotes.rest/)
+
+.env evoirnent is not secure enough for production build, I recommend doing some backend recipe. PHP is easy enough.
 
 ### `npm start`
 
@@ -24,11 +36,6 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can't go back!**
@@ -39,32 +46,3 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
