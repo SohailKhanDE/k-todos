@@ -20,6 +20,11 @@ This application will interact with different APIs to display the current weathe
 
 .env evoirnent is not secure enough for production build, I recommend doing some backend recipe. PHP is easy enough.
 
+Still missing Features are:
+* ToDo Edit
+* Delete confirmation
+* Editing ToDo
+* Weather Location Change / Auto detection 
 
 ![alt text](https://sohail.blog/k-todos/images/design.png)
 
