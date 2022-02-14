@@ -1,6 +1,6 @@
 import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 
-import wisdomURL from "../comon/api/wisdomAPI";
+import wisdomURL from "../comon/frontendAPI/wisdomAPI";
 
 // API Fucntion goes here -sk
 const getQuote = async () => {

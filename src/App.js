@@ -15,9 +15,9 @@ import "@material-tailwind/react/tailwind.css";
 function App() {
     return (
         <div className="App">
-            <BackgroundImage />
             <Error />
             <Weather />
+            <BackgroundImage />
             <Todos />
             <LeftArrow />
             <RightArrow />

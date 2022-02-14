@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import wallpaperURL from "../comon/api/wallpaperAPI";
+import wallpaperURL from "../comon/frontendAPI/wallpaperAPI";
 
 // API Fucntion goes here -sk
 const getImage = async () => {

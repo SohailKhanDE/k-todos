@@ -17,12 +17,7 @@ const ErrorCheck = () => {
     return (
         <>
             <Alert color="deepOrange">{errorMessage}
-                <div className="absolute inset-2 flex items-center justify-end">
-                    <Button onClick={() => {
-                        dispatch(retryHandler());
-                        dispatch(clearErrorMessage());
-                    }} color="white" buttonType="" size="regular" rounded={true} block={false} iconOnly={true} ripple="light">
-                        <Icon name="close" color="white" size="md"/> </Button>
+                <div className="absolute flex items-center justify-end pl-1">
                 </div>
             </Alert>
         </>

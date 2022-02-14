@@ -11,7 +11,7 @@ const setInitialState = () => {
     } else {
     return {
       entries: [
-        { text: "Visit Pakistan. Why? Just Google.", isDone: false },
+        { text: "Visit Pakistan.", isDone: false },
         { text: "Buy Tesla", isDone: false },
         { text: "Find Job", isDone: false },
         { text: "Plant a Tree", isDone: false }

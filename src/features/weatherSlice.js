@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import wallpaperURL from "../comon/api/weatherAPI";
+import wallpaperURL from "../comon/frontendAPI/weatherAPI";
 
 // API Fucntion goes here -sk
 const getWeather = async (city, state) => {

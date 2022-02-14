@@ -1,5 +1,7 @@
 # Insperational ToDo's App
 
+Checkout the App on my Blog: https://sohail.blog/k-todos/
+
 This application will interact with different APIs to display the current weather, a background image, and an inspirational quote. It will also provide users with a space to write down their goals for the day
 
 ## Ueed Stack Esseltials
