@@ -14,9 +14,9 @@ This application will interact with different APIs to display the current weathe
 * some other like uuid etc.
 
 ### What you Need in .env
-API Key for OpenWeathermap (https://openweathermap.org/)
-API Key for Unsplash (https://unsplash.com/developers)
-API Key for Wisdom Quotes (https://quotes.rest/)
+* API Key for OpenWeathermap (https://openweathermap.org/)
+* API Key for Unsplash (https://unsplash.com/developers)
+* API Key for Wisdom Quotes (https://quotes.rest/)
 
 .env evoirnent is not secure enough for production build, I recommend doing some backend recipe. PHP is easy enough.
 
