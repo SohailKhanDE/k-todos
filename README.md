@@ -20,6 +20,10 @@ API Key for Wisdom Quotes (https://quotes.rest/)
 
 .env evoirnent is not secure enough for production build, I recommend doing some backend recipe. PHP is easy enough.
 
+
+![alt text](https://sohail.blog/k-todos/images/design.png)
+
+
 ### `npm start`
 
 Runs the app in the development mode.\
