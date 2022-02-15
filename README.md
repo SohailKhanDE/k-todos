@@ -14,11 +14,20 @@ This application will interact with different APIs to display the current weathe
 * some other like uuid etc.
 
 ### What you Need in .env
-API Key for OpenWeathermap (https://openweathermap.org/)
-API Key for Unsplash (https://unsplash.com/developers)
-API Key for Wisdom Quotes (https://quotes.rest/)
+* API Key for OpenWeathermap (https://openweathermap.org/)
+* API Key for Unsplash (https://unsplash.com/developers)
+* API Key for Wisdom Quotes (https://quotes.rest/)
 
 .env evoirnent is not secure enough for production build, I recommend doing some backend recipe. PHP is easy enough.
+
+Still missing Features are:
+* ToDo Edit
+* Delete confirmation
+* Editing ToDo
+* Weather Location Change / Auto detection 
+
+![alt text](https://sohail.blog/k-todos/images/design.png)
+
 
 ### `npm start`
 
