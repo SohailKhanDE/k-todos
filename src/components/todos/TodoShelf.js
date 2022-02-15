@@ -3,19 +3,10 @@ import uuid from 'react-uuid'
 import TodoCard from "./TodoCard";
 
 const TodoShelf = ({entries}) => {
-    const COLORS = [
-        "surface-blue",
-        "surface-red",
-        "surface-green",
-        "surface-orange"
-    ];
-
-    const getEntryColor = (index) => COLORS[index % COLORS.length];
-
     return (
         <div>
             {entries.map(({text, isDone}, index) => (
-                <span key={uuid()} className={`${getEntryColor(index)} surface-styles ${isDone ? "entry-done" : ""}`}>
+                <span key={uuid()}>
             <TodoCard id={index} isDone={isDone}>
               {text}
             </TodoCard>
